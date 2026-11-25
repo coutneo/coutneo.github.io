@@ -1,0 +1,1 @@
+import{t as e}from"./c-DyZJNswf.js";var t=e();function n({coins:e}){return(0,t.jsx)(`div`,{className:`coins-flat`,"aria-hidden":`true`,"data-coins3d":`css`,children:e.map(e=>(0,t.jsx)(`span`,{className:`coin-flat coin-flat-${e===`NIO`?`gold`:`silver`}`,children:(0,t.jsx)(`span`,{children:e===`NIO`?`C$`:`US$`})},e))})}export{n as t};

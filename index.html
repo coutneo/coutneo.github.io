@@ -13,21 +13,40 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="description" content="Tus finanzas claras, en córdobas y en dólares. Funciona sin internet y tus datos se quedan en tu teléfono." />
-    <link rel="icon" href="icons/icono.svg" type="image/svg+xml" />
-    <link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32" />
-    <link rel="apple-touch-icon" href="icons/apple-touch-icon-180.png" />
+    <link rel="icon" href="icono.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-180.png" />
     <title>COUTNEO</title>
-    <script type="module" crossorigin src="./assets/app-DlIQcIA6.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/c-Dv6qJoK8.js">
-    <link rel="modulepreload" crossorigin href="./assets/c-CSuCCmRM.js">
-    <link rel="modulepreload" crossorigin href="./assets/c-CR2uBmUK.js">
-    <link rel="modulepreload" crossorigin href="./assets/c-D_Wry_i9.js">
-    <link rel="modulepreload" crossorigin href="./assets/c-Jtaz6lu_.js">
-    <link rel="modulepreload" crossorigin href="./assets/c-D9YruVuT.js">
-    <link rel="stylesheet" crossorigin href="./assets/a-CLVFp_gU.css">
+    <script type="module" crossorigin src="./app-TK4mxb0m.js"></script>
+    <link rel="modulepreload" crossorigin href="./c-DyZJNswf.js">
+    <link rel="modulepreload" crossorigin href="./c-BzznhL8X.js">
+    <link rel="modulepreload" crossorigin href="./c-7_IAOZ4n.js">
+    <link rel="modulepreload" crossorigin href="./c-CR2uBmUK.js">
+    <link rel="modulepreload" crossorigin href="./c-C9v0p8OB.js">
+    <link rel="modulepreload" crossorigin href="./c-D4D8NQP9.js">
+    <link rel="modulepreload" crossorigin href="./c-yhvIU1Qr.js">
+    <link rel="modulepreload" crossorigin href="./c-DclECHGd.js">
+    <link rel="modulepreload" crossorigin href="./c-D6xqWrM2.js">
+    <link rel="stylesheet" crossorigin href="./a-CXkBzni7.css">
   <link rel="manifest" href="./manifest.webmanifest"></head>
   <body>
-    <div id="root"></div>
+    <!--
+      Pantalla de arranque (D-41): se ve mientras carga la app y React la reemplaza al abrir.
+      Si la app no llega a abrir (faltan archivos o no hay conexión la primera vez), a los
+      8 segundos aparece la ayuda: nunca queda una pantalla en blanco.
+    -->
+    <div id="root">
+      <div class="boot" role="status">
+        <img class="boot-logo" src="icono.svg" alt="" width="84" height="84" />
+        <p class="boot-name">COUTNEO</p>
+        <span class="boot-ring" aria-hidden="true"></span>
+        <div class="boot-help">
+          <p class="boot-help-title">COUTNEO está tardando en abrir.</p>
+          <p>Revisá tu conexión y volvé a abrirla.</p>
+          <p>Si acabás de publicarla, faltan archivos: subí otra vez <strong>todos</strong> los archivos de la carpeta de la app.</p>
+        </div>
+      </div>
+    </div>
     <noscript>COUTNEO necesita JavaScript para funcionar.</noscript>
   </body>
 </html>
